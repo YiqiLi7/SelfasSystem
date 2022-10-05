@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap"); 
+@font-face {
+    font-family: myFirstFont;
+    src: url(Chinese.TTF);
+  }
+
+
+body{
+    
+    /* background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 80% 90%; */
+
+
+    
+}
+  .grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    height: 100%;
+    width: 20%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+
+.button1:hover {
+  background-color: #000;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+
+.image{
+    width: 100px;
+}
+
+.img1{
+    width: 100px;
+    margin-top: 65%;
+}
+
+.img2{
+    width: 100px;
+    margin-top: 15%;
+}
+
+.img3{
+    width: 100px;
+    margin-top: 50%;
+}
+
+.gaps{
+    margin: 20%;
+}
+
+.imgbg{
+    width:60%;
+    margin-left: 15vh;
+    margin-top: 10vh;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("BG2.png");
+    
+    /* Add the blur effect */
+    filter: blur(15px);
+    -webkit-filter: blur(3px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+    font-family: myFirstFont;
+    background-color: white /* Fallback color */
+    background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+    color: black;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h2{
+    font-family: myFirstFont;
+  }

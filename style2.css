@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    
+}
+
+iframe{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+body, html {
+    height: 90%;
+    margin: 0;
+
+  }
+
+
+p{
+    margin-left: 180px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  

@@ -1,0 +1,22 @@
+<div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+    <link rel="stylesheet" href="end.css">
+    <script src="end.js"></script>
+</div>
+
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+
+<button class="button button1" onclick="window.location.href='page2.html'">Back</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
